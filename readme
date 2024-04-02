@@ -1,1 +1,39 @@
-This bussiness statistics application
+# Business Intelligence Chatbot
+
+This project aims to develop a Business Intelligence Chatbot that can answer questions related to business using Intel's neural-chat-7b-v3-1 language model. The chatbot is trained on tokenized data extracted from PDF files using the language model.
+
+## Installation
+
+To install the required libraries, run the following command:
+pip install -r requirements.txt
+
+## Project Structure
+
+- Intel.neural-chat-7b-v3-1_model: Contains the chatbot model trained using the Intel neural-chat-7b-v3-1 language model.
+  - Intel.neural-chat-7b-v3-1_model/Intel.neural-chat-7b-v3-1_model/vectorstore: Folder containing tokenized data used for training the chatbot.
+- data: Folder to store any additional data files.
+- images: Folder to store images used in the project.
+- scripts: Contains scripts for data preprocessing, training, and other utility scripts.
+- style1.css: Combined CSS file for styling the web interface.
+- index.html: Main HTML file for the web interface.
+
+## Usage
+1.Clone the repository from GitHub:
+gitclone<https://github.com/Issac-Sathwik/BIntellect>
+
+2.Install the required libraries using the provided requirements file :
+pip install -r requirements.txt
+
+3. Run the web interface by opening the index.html file in a web browser.
+
+## About BIntellect
+
+BIntellect is a Business Intelligence Chatbot designed to provide insights and answers related to various aspects of business operations. It utilizes advanced language models to understand and respond to user queries effectively.
+
+## Intel neural-chat-7b-v3-1 Language Model
+
+The Intel neural-chat-7b-v3-1 language model is a large language model developed by Intel. It is based on the GPT (Generative Pre-trained Transformer) architecture and is fine-tuned on a massive dataset to perform various natural language processing tasks, including conversation generation.
+
+## Website Design
+
+The website interface is designed to be user-friendly and intuitive. It features a clean layout with a navigation bar for easy access to different sections. The chatbot interface allows users to interact with the chatbot seamlessly, providing quick responses to their queries.
